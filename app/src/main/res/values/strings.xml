@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="Slogan">"The best restaurants that offers\ndelicious and healthy food \nin town.Place an order and get\nit delivered between 2 hours\nirrespective of your location."</string>
+
+    <string name="string_get_started">Get Started</string>
+    <string name="title_activity_home_foodie">HomeFoodieActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="cart_status">Cart Status</string>
+    <string name="hotdealoffer">White egg boil for 10 mins and mix with onion sauce and noodles</string>
+    <string name="description">  Pizza is a savoury dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven.In formal settings, like a restaurant, pizza is eaten with knife and fork, but in casual settings it is cut into wedges to be eaten while held in the hand.</string>
+</resources>

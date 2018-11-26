@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@raw/pestry"
+    android:gravity="bottom"
+    app:layout_constraintCircleRadius="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_grid_fav"
+        android:background="#83000000"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:id="@+id/textViewName"
+            android:text="Pestry Menu"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:gravity="right"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/textViewPrice"
+            android:text="$40"
+            android:padding="10dp"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+</LinearLayout>

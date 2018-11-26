@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.SignUp"
+    android:id="@+id/relative_signup_layout"
+    android:background="@raw/food_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#83000000">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/linear1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageFood"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@raw/food_sign_in_logo"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editName"
+                android:hint="Name"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:inputType="textPersonName"
+                android:pointerIcon="cell"
+                android:background="@drawable/edt_bg"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editEmailId"
+                android:hint="Email_ID"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:background="@drawable/edt_bg"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPhoneNumber"
+                android:hint="Phone Number"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:inputType="phone"
+                android:background="@drawable/edt_bg"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPassword"
+                android:hint="Password"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:background="@drawable/edt_bg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear1"
+            android:layout_margin="20dp"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SignUp"
+                android:text="Sign Up"
+                android:background="@drawable/btn_bg"
+                android:textColor="@android:color/white"
+                android:shadowColor="@android:color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

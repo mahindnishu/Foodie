@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".otherClasses.MenuSelectIntoMenuCategories">
+
+
+    <TextView
+        android:id="@+id/textViewSearch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Search"
+        android:textColor="#b1acac"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuListview"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_below="@id/textViewSearch">
+    </ListView>
+
+</RelativeLayout>
